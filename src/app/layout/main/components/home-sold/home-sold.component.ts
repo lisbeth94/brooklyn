@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { infoSalesCard } from '../../main.models';
+import { InfoSalesCard } from '../../main.models';
 
 @Component({
   selector: 'app-home-sold',
@@ -7,7 +7,7 @@ import { infoSalesCard } from '../../main.models';
   styleUrls: ['./home-sold.component.scss']
 })
 export class HomeSoldComponent implements OnInit {
-  sold: infoSalesCard[] = [
+  sold: InfoSalesCard[] = [
     {
       src : './../../assets/images/sale-tv.png',
       sale_mount : 1740,

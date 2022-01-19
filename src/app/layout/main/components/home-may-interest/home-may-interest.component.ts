@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { infoCard } from '../../main.models';
+import { InfoCard } from '../../main.models';
 
 @Component({
   selector: 'app-home-may-interest',
@@ -7,7 +7,7 @@ import { infoCard } from '../../main.models';
   styleUrls: ['./home-may-interest.component.scss']
 })
 export class HomeMayInterestComponent implements OnInit {
-  mayInterest: infoCard[] = [
+  mayInterest: InfoCard[] = [
     {src: './../../assets/images/phones.png', bg_color: 'bg-gray-light', title: 'Celulares'},
     {src: './../../assets/images/play.png', bg_color: 'bg-blue', title: 'Video juegos'},
     {src: './../../assets/images/shoe.png', bg_color: 'bg-yellow', title: 'Moda'},

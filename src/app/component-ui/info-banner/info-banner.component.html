@@ -1,0 +1,15 @@
+<div class="container-flud mt-5">
+    <div *ngFor="let item of info" class="row g-0" >
+        <div class="col-12 col-lg-4 p-4"  [ngClass]="item.bg_color ? item.bg_color : '' ">
+            <p class="bk-info-top">{{item.info_top}}</p>
+            <p class="bk-banner-title">{{item.title}}</p>
+            <p class="bk-banner-info">{{item.info}}</p>
+            <button type="button" class="btn btn-light bk-btn-primary bk-btn-transparent">
+                {{item.tag_buttom}}
+            </button>
+        </div>
+        <div class="col-12 col-lg-8" style="min-height: 129px;">         
+            <div class="bk-image-banner" [ngStyle]="{'background-image' : 'url('+ item.src + ')'}"></div>   
+        </div>
+    </div>
+</div>

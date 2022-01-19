@@ -2,9 +2,13 @@
 //colors
 .bg-gray-light {
   background: #00000029 !important;
+  color: #fff;
 }
 .bg-blue{
     background: #0089D0 !important;
+}
+.bg-blue-light{
+    background: #A1DFFF !important;
 }
 .bg-yellow{
     background: #FFC306 !important;
@@ -12,19 +16,31 @@
 .bg-green{
     background: #19CC55 !important;
 }
+.bg-green-dark{
+    background: #1A9844 !important;
+    color: #fff;
+}
 .bg-red-light{
     background: #F6423E !important;
 }
 .bg-red-dark{
     background: #FF342E !important;
 }
+.bg-violet{
+    background: #4938A2 !important;
+    color: #fff;
+}
 //general clases
 .bk-btn-transparent{
-    background: transparent !important;
-    border: none !important;
+    background: transparent;
+    border-color: transparent;
     &:focus{
         box-shadow: none !important;
     }
+}
+.bk-btn-primary{
+    border: 1px solid#000 !important;
+    border-radius: 0;
 }
 .bk-h-100{
     height: 100% !important;

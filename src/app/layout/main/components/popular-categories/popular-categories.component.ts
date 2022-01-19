@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { infoCard } from 'src/app/layout/main/main.models';
+import { InfoCard } from 'src/app/layout/main/main.models';
 
 
 @Component({
@@ -8,7 +8,7 @@ import { infoCard } from 'src/app/layout/main/main.models';
   styleUrls: ['./popular-categories.component.scss']
 })
 export class PopularCategoriesComponent implements OnInit {
-  mayInterest: infoCard[] = [
+  mayInterest: InfoCard[] = [
     {src: './../../assets/images/phones.png', bg_color: 'bg-gray-light', title: 'Celulares'},
     {src: './../../assets/images/play.png', bg_color: 'bg-blue', title: 'Video juegos'},
     {src: './../../assets/images/shoe.png', bg_color: 'bg-yellow', title: 'Moda'},

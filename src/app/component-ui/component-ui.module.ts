@@ -4,6 +4,7 @@ import { BadgeComponent } from './badge/badge.component';
 import { InputSearchComponent } from './input-search/input-search.component';
 import { CardCircleComponent } from './cards/card-circle/card-circle.component';
 import { CardSaleComponent } from './cards/card-sale/card-sale.component';
+import { InfoBannerComponent } from './info-banner/info-banner.component';
 
 
 
@@ -12,7 +13,8 @@ import { CardSaleComponent } from './cards/card-sale/card-sale.component';
     BadgeComponent,
     InputSearchComponent,
     CardCircleComponent,
-    CardSaleComponent
+    CardSaleComponent,
+    InfoBannerComponent
   ],
   imports: [
     CommonModule
@@ -21,8 +23,8 @@ import { CardSaleComponent } from './cards/card-sale/card-sale.component';
     BadgeComponent,
     InputSearchComponent,
     CardCircleComponent,
-    CardSaleComponent
-
+    CardSaleComponent,
+    InfoBannerComponent
   ]
 })
 export class ComponentUiModule { }
