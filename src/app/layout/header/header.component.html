@@ -1,0 +1,54 @@
+<nav class="navbar bk-navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-md">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand bk-logo" href="#"></a>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <app-input-search
+          [searchPlaceholder]="'Buscar productos en venta'"
+          [text]="textFilter"
+          (search)="applyFilter($event)">
+          >
+        </app-input-search>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            <div class="bk-content-tag-menu-nav">              
+              <img src="../../../assets/images/icon-location.png"  width="15px" height="22px">              
+              <div class="bk-tag-menu-nav">
+                <div>Selecciona</div>
+                <div>Tu ubicación</div>
+              </div>
+            </div>
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            <div class="bk-content-tag-menu-nav">              
+              <img src="../../../assets/images/icon-account-circle.png" width="25px" height="25px">              
+              <div class="bk-tag-menu-nav">
+                <div>Hola, inngresa ahora</div>
+                <div>Mi cuenta y pedidos</div>
+              </div>
+            </div>
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+          </ul>
+        </li>
+        <app-float-nav-items></app-float-nav-items>
+      </ul>
+    </div>
+  </div>
+</nav>

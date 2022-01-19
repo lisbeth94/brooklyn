@@ -1,0 +1,30 @@
+.bk-logo {
+  width: 156px;
+  height: 31px;
+  background-image: url(../../../assets/images/logo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.bk-navbar {
+  background: #f6423e !important;
+  .container-md {
+    justify-content: initial !important;
+    .bk-content-tag-menu-nav {
+        display: inline-flex;
+        img {           
+            margin: auto;
+        }
+        .bk-tag-menu-nav{
+            margin-left: 20px;
+            div:nth-child(1) {
+                font-size: 12px;
+            }
+            div:nth-child(2) {
+                font-size: 14px;
+            }
+        }        
+    }
+  }
+}
