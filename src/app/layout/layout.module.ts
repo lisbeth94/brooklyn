@@ -10,6 +10,9 @@ import { HomeComponent } from './main/components/home/home.component';
 import { PopularCategoriesComponent } from './main/components/popular-categories/popular-categories.component';
 import { HomeOfferComponent } from './main/components/home-offer/home-offer.component';
 import { HomeSoldComponent } from './main/components/home-sold/home-sold.component';
+import { FooterComponent } from './footer/footer.component';
+import { HomeCarouselComponent } from './main/components/home-carousel/home-carousel.component';
+import { HomeBannerComponent } from './main/components/home-banner/home-banner.component';
 
 
 
@@ -23,7 +26,10 @@ import { HomeSoldComponent } from './main/components/home-sold/home-sold.compone
     HomeComponent,
     PopularCategoriesComponent,
     HomeOfferComponent,
-    HomeSoldComponent
+    HomeSoldComponent,
+    FooterComponent,
+    HomeCarouselComponent,
+    HomeBannerComponent
   ],
   imports: [
     CommonModule,

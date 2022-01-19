@@ -8,18 +8,16 @@
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <app-input-search
-          [searchPlaceholder]="'Buscar productos en venta'"
-          [text]="textFilter"
-          (search)="applyFilter($event)">
-          >
-        </app-input-search>
+          <app-input-search [searchPlaceholder]="'Buscar productos en venta'" [text]="textFilter"
+            (search)="applyFilter($event)">
+            >
+          </app-input-search>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
             data-bs-toggle="dropdown" aria-expanded="false">
-            <div class="bk-content-tag-menu-nav">              
-              <img src="../../../assets/images/icon-location.png"  width="15px" height="22px">              
+            <div class="bk-content-tag-menu-nav">
+              <img src="../../../assets/images/icon-location.png" width="15px" height="22px">
               <div class="bk-tag-menu-nav">
                 <div>Selecciona</div>
                 <div>Tu ubicación</div>
@@ -34,8 +32,8 @@
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
             data-bs-toggle="dropdown" aria-expanded="false">
-            <div class="bk-content-tag-menu-nav">              
-              <img src="../../../assets/images/icon-account-circle.png" width="25px" height="25px">              
+            <div class="bk-content-tag-menu-nav">
+              <img src="../../../assets/images/icon-account-circle.png" width="25px" height="25px">
               <div class="bk-tag-menu-nav">
                 <div>Hola, inngresa ahora</div>
                 <div>Mi cuenta y pedidos</div>
@@ -47,9 +45,11 @@
             <li><a class="dropdown-item" href="#">Another action</a></li>
           </ul>
         </li>
-        <app-float-nav-items></app-float-nav-items>
       </ul>
     </div>
+    <app-float-nav-items></app-float-nav-items>
   </div>
 </nav>
 <app-header-banner></app-header-banner>
+<app-home-carousel></app-home-carousel>
+<app-home-banner></app-home-banner>
