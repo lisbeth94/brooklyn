@@ -1,4 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+//colors
+.bg-gray-light {
+  background: #00000029 !important;
+}
+.bg-blue{
+    background: #0089D0 !important;
+}
+.bg-yellow{
+    background: #FFC306 !important;
+}
+.bg-green{
+    background: #19CC55 !important;
+}
+.bg-red-light{
+    background: #F6423E !important;
+}
+.bg-red-dark{
+    background: #FF342E !important;
+}
+//general clases
 .bk-btn-transparent{
     background: transparent !important;
     border: none !important;
@@ -13,3 +33,8 @@
 .bk-badge {
     border-radius: 50%;
 }
+
+.bk-subtitle{
+    font-size:20px
+}
+

@@ -1,0 +1,12 @@
+<div class="row row-cols-3 row-cols-md-6 g-4"> <!--row-cols-md-3-->
+    <div *ngFor="let item of infoCard" class="col">
+      <div class="bk-card-circle card">
+          <div class="bk-content-img-card-circle" [ngClass]="item.bg_color ? item.bg_color : '' ">
+             <img [src]="item.src" class="card-img-top" alt="...">
+          </div>
+        <div class="card-body">
+          <h5 class="card-title bk-card-title-card-circle">{{item.title}}</h5>         
+        </div>
+      </div>
+    </div>
+  </div>

@@ -1,0 +1,38 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light bk-header-banner">
+    <div class="container-md">
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="../../../assets/images/icon-shape-outline.svg" width="25px" height="25px">
+                        <span class="bk-tag-header-banner">Todas la categorías</span>
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li *ngFor="let item of category" ><a class="dropdown-item" href="#">{{item}}</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <a class="link-secondary" href="#" role="button">
+                <img src="../../../assets/images/icon-sale.svg" class="bk-img-header-banner">
+                <span class="bk-tag-header-banner">Ofertas</span>
+            </a>
+            <a class="link-secondary ms-3" href="#" role="button">
+                <img src="../../../assets/images/icon-tag.svg" class="bk-img-header-banner">
+                <span class="bk-tag-header-banner">Vender</span>
+            </a>
+            <a class="link-secondary ms-3" href="#" role="button">
+                <img src="../../../assets/images/icon-store.svg" class="bk-img-header-banner">
+                <span class="bk-tag-header-banner">Tiendas oficiales</span>
+            </a>
+            <a class="link-secondary ms-3" href="#" role="button">
+                <img src="../../../assets/images/icon-heard.svg" class="bk-img-header-banner">
+                <span class="bk-tag-header-banner">Favoritos</span>
+            </a>
+            <a class="link-secondary ms-3" href="#" role="button">
+                <img src="../../../assets/images/icon-history.svg" class="bk-img-header-banner">
+                <span class="bk-tag-header-banner">Historial</span>
+            </a>
+        </div>
+    </div>
+</nav>

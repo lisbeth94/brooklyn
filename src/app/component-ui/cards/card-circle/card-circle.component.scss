@@ -1,0 +1,32 @@
+.bk-card-circle {
+    border: none;
+  .bk-content-img-card-circle {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background: #ddd;
+    padding: 2rem;   
+    margin: auto;
+    position: relative
+    img {
+        width: 80px;
+        height: 80px; 
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+    }
+  }
+  .card-body .bk-card-title-card-circle{
+    text-align: center;
+    font-size: 16px !important;
+    letter-spacing: 0px;
+    color: #2A2A2A;
+    opacity: 1;
+  }
+  &:hover{
+      color: #F6423E !important;
+  }
+}
